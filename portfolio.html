@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Angle Design Studio | Premium Interior Design</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@200;300;400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="follower"></div>
+  <div class="loader" id="loader">
+    <div class="loader-content">
+      <div class="loader-text">Angle Design Studio</div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <a href="#" class="logo"><img src="./img/angledesignstudio.jpg" alt=""></a>
+    <ul class="nav-links">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./about-us.html">About Us</a></li>
+      <li><a href="./services.html">Services</a></li>
+      <li><a href="./portfolio.html">Portfolio</a></li>
+      <li><a href="./contact-us.html" class="nav-cta">Get in Touch</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+ <section class="about-us-main" id="home">
+    <div class="container">
+        <div class="inner">
+            <h2>Our Portfolio</h2>
+        </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio">
+    <div class="portfolio-nav reveal">
+      <div class="section-header" style="margin-bottom: 0;">
+        <span class="section-label">Our Work</span>
+        <h2 class="section-title">Featured <em>Projects</em></h2>
+      </div>
+      <div class="filter-tabs">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="residential">Residential</button>
+        <button class="filter-btn" data-filter="commercial">Commercial</button>
+        <button class="filter-btn" data-filter="hospitality">Hospitality</button>
+      </div>
+    </div>
+
+    <div class="portfolio-grid">
+      <div class="port-item reveal" data-category="residential">
+        <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80&w=1000"
+          alt="Project" class="port-img">
+        <div class="port-overlay">
+          <span class="port-cat">Residential · 2024</span>
+          <h3 class="port-name">The Warwick Residence</h3>
+        </div>
+      </div>
+      <div class="port-item reveal" data-category="commercial">
+        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1000"
+          alt="Project" class="port-img">
+        <div class="port-overlay">
+          <span class="port-cat">Commercial · 2024</span>
+          <h3 class="port-name">Ember Co. Office</h3>
+        </div>
+      </div>
+      <div class="port-item reveal" data-category="hospitality">
+        <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=1000"
+          alt="Project" class="port-img">
+        <div class="port-overlay">
+          <span class="port-cat">Hospitality · 2023</span>
+          <h3 class="port-name">The Hearth Café</h3>
+        </div>
+      </div>
+      <div class="port-item reveal" data-category="residential">
+        <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&q=80&w=1000"
+          alt="Project" class="port-img">
+        <div class="port-overlay">
+          <span class="port-cat">Residential · 2023</span>
+          <h3 class="port-name">Casa Mellow</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-about">
+        <a href="#" class="footer-logo"><img src="./img/angledesignstudio.jpg" alt=""></a>
+        <p class="footer-desc">Crafting exceptional spaces that inspire and elevate the human experience through
+          thoughtful design.</p>
+      </div>
+      <div class="footer-links">
+        <h5>Studio</h5>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h5>Support</h5>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h5>Social</h5>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Pinterest</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+       <p>&copy; 2026 Angle Design Studio</p>
+      <p>Designed By TA Creatives</p>
+    </div>
+  </footer>
+ 
+<script src="./java/script.js"></script>
+
+</body>
+
+</html>
