@@ -352,7 +352,7 @@
  }
 
  .hero-card .price-chip {
-     display: none;
+     display: none !important;
  }
 
  /* SECTIONS GENERAL */
