@@ -48,7 +48,9 @@
      transform: translate(-50%, -50%);
      transition: transform 0.1s ease;
  }
-
+ .hero-card .price-chip {
+     display: none !important;
+ }
  .cursor-follower {
      position: fixed;
      width: 40px;
@@ -349,10 +351,6 @@
          opacity: 1;
          transform: translateY(0);
      }
- }
-
- .hero-card .price-chip {
-     display: none !important;
  }
 
  /* SECTIONS GENERAL */
